@@ -1,0 +1,18 @@
+{
+  "name": "xianyu-kit",
+  "version": "1.0.0",
+  "description": "闲鱼自动化的底层库：浏览器会话、请求闸门、队列、重试退避、结构化日志",
+  "type": "commonjs",
+  "main": "lib/agent.js",
+  "scripts": {
+    "check": "node -e \"require('./lib/env'); require('./lib/req-gate'); console.log('ok')\""
+  },
+  "keywords": ["xianyu", "goofish", "automation", "rate-limit", "puppeteer"],
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer-core": "^23.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

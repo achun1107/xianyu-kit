@@ -1,0 +1,33 @@
+# ── 本机配置与凭证，绝不入库 ──
+lib/config.local.json
+config.local.json
+.museav.json
+.xianyu-templates.json
+.env
+
+# ── 锁文件与运行时状态 ──
+*.json.lock
+*-state.json
+logs/
+*.log
+
+# ── 运行产物 ──
+out/
+transcripts/
+*.ndjson
+
+# ── 备份 ──
+*.bak
+*.bak_*
+bak-*
+
+# ── Node ──
+node_modules/
+package-lock.json
+
+# ── 系统 ──
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.pyc
